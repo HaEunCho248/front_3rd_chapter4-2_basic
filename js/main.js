@@ -1,3 +1,5 @@
+import '../css/styles.css';
+
 function showTopBar(){
     let country = "France";
     let vat = 20;

@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/HaEunCho248/front_3rd_chapter4-2_basic#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
