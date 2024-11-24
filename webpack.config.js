@@ -39,6 +39,16 @@ module.exports = {
           ],
     })
   ],
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'), // 정적 파일 제공 디렉토리
+    },
+    compress: true, // gzip 압축 사용
+    port: 3000, // 개발 서버 포트
+    hot: true, // 핫 모듈 교체(HMR) 활성화
+    open: true, // 서버 시작 시 브라우저 자동 실행
+    historyApiFallback: true // SPA를 위한 HTML5 History API 폴백
+  },
   optimization: {
     minimize: true, //js 코드 압축
   },
